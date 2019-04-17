@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Stephs15/react-hooks-tutorial/precache-manifest.a3762d65fc1e6cd375896a15d3bf9501.js"
+  "/react-hooks-tutorial/precache-manifest.ce613ba8c3e3d6306031ad91e1978d92.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Stephs15/react-hooks-tutorial/index.html", {
+workbox.routing.registerNavigationRoute("/react-hooks-tutorial/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
