@@ -11,6 +11,7 @@ const Button = styled.button`
   background-color: ${colors.woodsmoke}
   color: white;
   margin: 0 5px;
+  cursor: pointer;
 `;
 
 export default Button;
